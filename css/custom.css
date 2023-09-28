@@ -1,0 +1,30 @@
+div[data-testid="metric-container"] {
+
+    border-top: 5px solid #9BF6FA;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    -webkit-box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.3);
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.3);
+
+   background-color: #f7fafc;
+   padding: 8px;
+   border-radius: 15px;
+   overflow-wrap: break-word;
+
+   color: black;
+
+   max-width: 300px;
+}
+
+/* breakline for metric text         */
+div[data-testid="metric-container"] > label[data-testid="stMetricLabel"] > div {
+   overflow-wrap: break-word;
+   white-space: break-spaces;
+   color: black;
+}
+
+.block-container {
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+}
